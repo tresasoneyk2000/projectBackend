@@ -1,0 +1,22 @@
+package com.user.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class Customer {
+	@Id
+	private long userid;
+	private String username;
+	private String password;
+	
+	
+
+}

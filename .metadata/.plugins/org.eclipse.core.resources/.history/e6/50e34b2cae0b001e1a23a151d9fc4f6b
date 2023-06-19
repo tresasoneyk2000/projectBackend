@@ -1,0 +1,16 @@
+package com.user.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+
+public class Customer {
+	@Id
+	private long userid;
+	private String username;
+	private String password;
+	
+	
+
+}

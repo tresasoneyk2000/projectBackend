@@ -1,0 +1,1199 @@
+!SESSION 2023-06-16 00:10:37.051 -----------------------------------------------
+eclipse.buildId=4.12.1.202109301525
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2023-06-16 00:11:34.314
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-16 00:11:34.314
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51da7b08,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@580154b3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-06-16 00:11:41.034
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:15:49.418
+!MESSAGE Could not download sources for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:15:49.418
+!MESSAGE Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:15:49.418
+!MESSAGE Missing antlr:antlr:jar:sources:2.7.7
+
+!ENTRY org.eclipse.ui 2 2 2023-06-16 00:15:50.250
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:18.180
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-autoconfigure:2.7.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-autoconfigure:jar:sources:2.7.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:241)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-autoconfigure:jar:sources:2.7.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:18.180
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-autoconfigure:jar:sources:2.7.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:18.180
+!MESSAGE Missing org.springframework.boot:spring-boot-autoconfigure:jar:sources:2.7.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:18.181
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:18.184
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-logging:2.7.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-logging:jar:sources:2.7.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:241)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-logging:jar:sources:2.7.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:18.184
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-logging:jar:sources:2.7.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:18.184
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-logging:jar:sources:2.7.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:18.185
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:18.192
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-json:2.7.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-json:jar:sources:2.7.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:241)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-json:jar:sources:2.7.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:18.192
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-json:jar:sources:2.7.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:18.192
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-json:jar:sources:2.7.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:18.195
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:18.198
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-tomcat:2.7.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-tomcat:jar:sources:2.7.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:241)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-tomcat:jar:sources:2.7.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:18.199
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-tomcat:jar:sources:2.7.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:18.199
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-tomcat:jar:sources:2.7.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:18.199
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:18.570
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:18.800
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:19.035
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:20.408
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:21.338
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:22.014
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:22.017
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-test:2.7.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-test:jar:sources:2.7.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:241)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-test:jar:sources:2.7.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:22.018
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-test:jar:sources:2.7.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:22.018
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-test:jar:sources:2.7.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:22.018
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:22.022
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-test:2.7.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-test:jar:sources:2.7.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:241)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-test:jar:sources:2.7.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:22.022
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-test:jar:sources:2.7.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:22.022
+!MESSAGE Missing org.springframework.boot:spring-boot-test:jar:sources:2.7.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:22.022
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:22.026
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-test-autoconfigure:2.7.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-test-autoconfigure:jar:sources:2.7.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:241)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-test-autoconfigure:jar:sources:2.7.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:22.026
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-test-autoconfigure:jar:sources:2.7.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:22.026
+!MESSAGE Missing org.springframework.boot:spring-boot-test-autoconfigure:jar:sources:2.7.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:22.027
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:22.836
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:23.558
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.374
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.377
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.380
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.382
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.385
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.387
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.389
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.391
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.393
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.396
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.400
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.402
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.404
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.408
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.410
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:24.415
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-autoconfigure:2.7.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-autoconfigure:jar:javadoc:2.7.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:241)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-autoconfigure:jar:javadoc:2.7.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:24.415
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-autoconfigure:jar:javadoc:2.7.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:24.415
+!MESSAGE Missing org.springframework.boot:spring-boot-autoconfigure:jar:javadoc:2.7.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.415
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:24.419
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-logging:2.7.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-logging:jar:javadoc:2.7.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:241)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-logging:jar:javadoc:2.7.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:24.419
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-logging:jar:javadoc:2.7.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:24.419
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-logging:jar:javadoc:2.7.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.420
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:24.425
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-json:2.7.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-json:jar:javadoc:2.7.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:241)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-json:jar:javadoc:2.7.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:24.425
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-json:jar:javadoc:2.7.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:24.425
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-json:jar:javadoc:2.7.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.425
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:24.429
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-tomcat:2.7.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-tomcat:jar:javadoc:2.7.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:241)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-tomcat:jar:javadoc:2.7.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:24.429
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-tomcat:jar:javadoc:2.7.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:24.429
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-tomcat:jar:javadoc:2.7.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.429
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.431
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.433
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.435
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.437
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.439
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.441
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:24.445
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-test:2.7.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-test:jar:javadoc:2.7.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:241)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-test:jar:javadoc:2.7.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:24.445
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-test:jar:javadoc:2.7.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:24.445
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-test:jar:javadoc:2.7.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.445
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:24.449
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-test:2.7.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-test:jar:javadoc:2.7.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:241)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-test:jar:javadoc:2.7.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:24.449
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-test:jar:javadoc:2.7.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:24.449
+!MESSAGE Missing org.springframework.boot:spring-boot-test:jar:javadoc:2.7.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.449
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:24.453
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-test-autoconfigure:2.7.13-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-test-autoconfigure:jar:javadoc:2.7.13-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:241)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-test-autoconfigure:jar:javadoc:2.7.13-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:24.454
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-test-autoconfigure:jar:javadoc:2.7.13-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:24.454
+!MESSAGE Missing org.springframework.boot:spring-boot-test-autoconfigure:jar:javadoc:2.7.13-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.454
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.456
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.458
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.460
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.462
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.463
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.466
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.469
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.470
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.472
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.474
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.476
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.478
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.479
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.481
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.483
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.485
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.487
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.490
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.492
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.495
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.501
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.504
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.506
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.509
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.512
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.514
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.517
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.519
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.522
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.524
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.526
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.528
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.530
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.531
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.533
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.536
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.537
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.539
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.542
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.544
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.546
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.547
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.549
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.551
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.553
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.555
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.557
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.560
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.562
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.565
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.567
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.568
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.570
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.572
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.573
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.575
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.578
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.581
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.584
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.586
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.587
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-06-16 00:16:24.589
+!MESSAGE IPackageFragmentRoot is missing, skipping javadoc/source attachment for project P/User
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-06-16 00:16:25.614
+!MESSAGE Could not download javadoc for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:25.614
+!MESSAGE Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2023-06-16 00:16:25.614
+!MESSAGE Missing antlr:antlr:jar:javadoc:2.7.7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:49.055
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:49.055
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@66e92483[org.springframework.tooling.boot.ls:1.29.0.202109301312(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:49.072
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:49.832
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:55.819
+!MESSAGE Boot LS startup time from start to initialized: 6737ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:55.951
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.woeFVGooisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:55.954
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:55.956
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:55.956
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:55.956
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.woeFVGoo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:55.957
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:55.962
+!MESSAGE classpath=90 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:55.965
+!MESSAGE buffering callback sts4.classpath.woeFVGoo Customer false 90
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:55.965
+!MESSAGE executing callback sts4.classpath.woeFVGoo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:17:56.414
+!MESSAGE executing callback sts4.classpath.woeFVGoo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:25:18.803
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:25:18.808
+!MESSAGE classpath=90 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:25:18.811
+!MESSAGE buffering callback sts4.classpath.woeFVGoo Customer false 90
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:25:18.811
+!MESSAGE executing callback sts4.classpath.woeFVGoo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:25:18.939
+!MESSAGE executing callback sts4.classpath.woeFVGoo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:25:20.863
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:25:20.873
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:25:20.884
+!MESSAGE buffering callback sts4.classpath.woeFVGoo Customer false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:25:20.912
+!MESSAGE executing callback sts4.classpath.woeFVGoo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:25:20.952
+!MESSAGE executing callback sts4.classpath.woeFVGoo SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-06-16 00:28:13.164
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jface 2 0 2023-06-16 00:52:53.904
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-16 00:52:53.904
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e964bff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@32ba50b9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:57:15.441
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.woeFVGoo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:57:15.441
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.woeFVGoo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:57:15.442
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 00:57:15.442
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.woeFVGoo => OK
+!SESSION 2023-06-16 09:01:52.775 -----------------------------------------------
+eclipse.buildId=4.12.1.202109301525
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2023-06-16 09:02:25.905
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-16 09:02:25.906
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d4bdbd8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e847e71,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:36.598
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:36.599
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5eb98ad8[org.springframework.tooling.boot.ls:1.29.0.202109301312(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:36.606
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:36.972
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-06-16 09:02:41.077
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:45.426
+!MESSAGE Boot LS startup time from start to initialized: 8812ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:45.594
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZwlUgfFHisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:45.614
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:45.616
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:45.617
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:45.617
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:45.617
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZwlUgfFH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:45.886
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:45.890
+!MESSAGE buffering callback sts4.classpath.ZwlUgfFH Customer false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:45.891
+!MESSAGE executing callback sts4.classpath.ZwlUgfFH 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 09:02:47.906
+!MESSAGE executing callback sts4.classpath.ZwlUgfFH FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-06-16 09:02:47.908
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2023-06-16 09:05:45.141
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-06-16 09:06:32.136
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 16:00:38.778
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZwlUgfFH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 16:00:38.783
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZwlUgfFH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 16:00:38.784
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-16 16:00:38.785
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZwlUgfFH => OK
+!SESSION 2023-06-19 10:07:22.919 -----------------------------------------------
+eclipse.buildId=4.12.1.202109301525
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2023-06-19 10:07:43.900
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-19 10:07:43.901
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@789d8fd6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42fa5cb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:50.446
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:50.446
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@179c13b7[org.springframework.tooling.boot.ls:1.29.0.202109301312(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:50.450
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:50.561
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-06-19 10:07:53.118
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:58.389
+!MESSAGE Boot LS startup time from start to initialized: 7900ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:58.639
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MfypOobYisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:58.643
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:58.646
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:58.646
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:58.647
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MfypOobY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:58.647
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:58.678
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:58.681
+!MESSAGE buffering callback sts4.classpath.MfypOobY Customer false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:58.682
+!MESSAGE executing callback sts4.classpath.MfypOobY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 10:07:59.191
+!MESSAGE executing callback sts4.classpath.MfypOobY SUCCESS [done]
+
+!ENTRY org.eclipse.jface 2 0 2023-06-19 10:09:19.058
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-19 10:09:19.058
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d5d552d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9def6d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2023-06-19 10:10:56.751
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2023-06-19 15:57:56.774 -----------------------------------------------
+eclipse.buildId=4.12.1.202109301525
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-19 15:59:17.045
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2023-06-19 15:59:31.904
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-06-19 15:59:31.904
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4769378c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d6a22dd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 15:59:45.612
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 15:59:45.613
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6f49e820[org.springframework.tooling.boot.ls:1.29.0.202109301312(id=557)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 15:59:45.667
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 15:59:46.784
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-06-19 15:59:48.511
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 15:59:57.643
+!MESSAGE Boot LS startup time from start to initialized: 11954ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 15:59:58.786
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XuiQdWOjisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 15:59:58.792
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 15:59:58.796
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 15:59:58.797
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 15:59:58.798
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XuiQdWOj => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 15:59:58.801
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 15:59:58.893
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 15:59:58.897
+!MESSAGE buffering callback sts4.classpath.XuiQdWOj Customer false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 15:59:58.898
+!MESSAGE executing callback sts4.classpath.XuiQdWOj 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-06-19 16:00:00.706
+!MESSAGE executing callback sts4.classpath.XuiQdWOj SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2023-06-19 16:01:36.800
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
