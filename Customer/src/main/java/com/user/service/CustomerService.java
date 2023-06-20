@@ -64,4 +64,13 @@ public ResponseEntity<Signup> getCustomerByName(String name){
 		return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 	}
 }
+
+public boolean findUsername(String username) {
+	Optional<Signup> op= custRepo.findByUsername(username);
+	if(op.isPresent()) {
+		return true;
+	}
+	return false;
+	
+}
 }

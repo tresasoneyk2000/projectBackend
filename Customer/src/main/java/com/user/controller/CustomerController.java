@@ -71,8 +71,15 @@ public ResponseEntity<Signup> updateCustomer(@PathVariable long id,@RequestBody 
 	  return service.updateCustomerById(id, cs);
 
 }
-@GetMapping("/getbyname/{name}")
-public ResponseEntity<Signup> getCustomerByName(@PathVariable String name){
-	  return service.getCustomerByName(name);
+//@GetMapping("/getbyname/{name}")
+//public ResponseEntity<Signup> getCustomerByName(@PathVariable String name){
+//	  return service.getCustomerByName(name);
+//}
+
+@GetMapping("/checkusername/{username}")
+
+public boolean searchusername(@PathVariable String username){
+	return service.findUsername(username);
+	
 }
 }

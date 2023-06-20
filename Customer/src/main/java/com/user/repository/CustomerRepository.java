@@ -10,6 +10,6 @@ import com.user.entity.Signup;
 @Repository
 public interface CustomerRepository extends JpaRepository<Signup, Long> {
 
-	Optional<Signup> findByUsername(String name);
+	Optional<Signup> findByUsername(String username);
 
 }
